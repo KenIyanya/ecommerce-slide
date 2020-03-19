@@ -5,8 +5,8 @@
     <b-col class="mx-3" style="width: 18rem">
     <b-card-group class="mt-3 displaycard">
       <b-card
-        border-variant="secondary"
-        header="Computing"
+        
+        
         header-bg-variant="secondary"
         header-text-variant="white"
         align="center"
@@ -20,6 +20,7 @@
         
        </b-card-text>
        <b-button href="#" variant="danger">Add to cat</b-button>
+       
       </b-card>
 
     

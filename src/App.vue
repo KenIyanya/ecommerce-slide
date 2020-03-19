@@ -5,7 +5,6 @@
    
        <Header/>
        
-
         <b-row class="mt-3">
           <b-col cols="2" offset="1">
             <Category v-for="cat in categories" :categories="cat" :key="cat.id" /> 
@@ -21,8 +20,10 @@
            </b-row>
     
     </div>
+    <Footer/>
     
   </b-container>
+  
  
 </template>
 
@@ -32,6 +33,7 @@ import Header from '@/components/Header.vue'
 import Category from '@/components/Category.vue'
 import Products from '@/components/Products.vue'
 import Carousel from '@/components/Carousel.vue'
+import Footer from './components/Footer'
 
 
 export default {
@@ -40,7 +42,8 @@ export default {
     Header,
     Category,
     Products,
-    Carousel
+    Carousel,
+    Footer
     
   },
   data(){
@@ -140,5 +143,5 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 </style>
